@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,100..900,100;1,9..144,100..900,100&display=swap')
 
 
 html{
 		font-family: "Fraunces", serif;
+		font-size: 16px;
 }
 
 body {
-	max-width: 780px;
-	margin:  0 auto;
+	max-width: 100%;
+	margin: 25vw 32px 0;
 }
 
-h1{
+h1, h2{
 	font-weight: 800;
 	font-style: normal;
-  	font-variation-settings:
-    	"SOFT" 100,
-    	"WONK" 0;
+	font-family: "Figtree", sans-serif;
 }
 
 p, a {
@@ -30,4 +29,11 @@ p, a {
 
 .project-link:hover{
 	background-color: #C5E99B;
+}
+
+@media (min-width: 768px){
+	body {
+		max-width: 760px;
+		margin:  25vw auto 0;
+	}
 }
