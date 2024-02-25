@@ -1,16 +1,17 @@
-@import ./index.css
-
 <html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
 	<body>
 		<nav>
-			<a href="">about</a>
-			<a href=""> project list</a>
+			<a href="#about">about</a>
+			<a href="#project-list">project list</a>
 		</nav>
 		<h1>clara gilligan portfolio</h1>
 		<main>
-			<div class="subsection">
+			<div class="subsection" id="about">
 				<h2> about me </h2>
-				<p> I am a web developer and designer based in NYC. For the last two years I have been working for the online education department University of Missouri System. My main responsiblities include</p>
+				<p> I am a web developer and designer based in NYC. For the last two years I have been working for the online education department at the University of Missouri System. My main responsiblities include</p>
 				<ul>
 					<li>Working with drupal theming</li>
 					<li>Collecting student feedback from the student support staff</li>
@@ -24,7 +25,7 @@
 			</div>
 			<div class="subsection">
 				<h2> Projects </h2>	
-				<ul class="project-list">
+				<ul class="project-list" id="project-list">
 					<li class="project-link"><a href="">Project</a></li>
 					<li class="project-link"><a href="">Project</a></li>
 					<li class="project-link"><a href="">Project</a></li>
