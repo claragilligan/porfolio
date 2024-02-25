@@ -1,4 +1,19 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+body {
 	max-width: 780px;
 	margin:  0 auto;
+	font-family: "Fraunces", serif;
+}
+
+h1{
+	font-weight: 800;
+	font-style: normal;
+  	font-variation-settings:
+    	"SOFT" 100,
+    	"WONK" 0;
+}
+
+p, a {
+	font-weight: 500;
 }
