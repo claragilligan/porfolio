@@ -2,13 +2,16 @@
 
 
 html{
-		font-family: "Fraunces", serif;
-		font-size: 16px;
+	font-size: 16px;
+	font-family: "Fraunces", serif;
+	  font-variation-settings:
+    "SOFT" 100,
+    "WONK" 0;
 }
 
 body {
 	max-width: 100%;
-	margin: 25vw 32px 0;
+	margin: 160px 32px 0;
 }
 
 h1, h2{
@@ -25,6 +28,7 @@ p, a {
 .project-link{
  	background-color: transparent;
  	list-style: none;
+ 	width:  fit-content;
 }
 
 .project-link:hover{
@@ -34,6 +38,6 @@ p, a {
 @media (min-width: 768px){
 	body {
 		max-width: 760px;
-		margin:  25vw auto 0;
+		margin:  80px auto 0;
 	}
 }
